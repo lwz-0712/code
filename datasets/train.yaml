@@ -1,0 +1,13 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./datasets/images  # 数据所在目录
+train: train  # 训练集图片所在位置（相对于path）
+val:  val # 验证集图片所在位置（相对于path）
+test:  # 测试集图片所在位置（相对于path）（可选）
+
+# 类别
+nc: 4  # 类别数量
+names:
+  0: recyclable waste
+  1: hazardous waste
+  2: kitchen waste
+  3: other waste
